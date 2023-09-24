@@ -1,5 +1,10 @@
 /*Colors*/
 
-:root {
-    --background-color: #211D14
+html{
+  background-color:#352B17 ;
+}
+
+.yellowText{
+color:#D2AC43 ;
+
 }
