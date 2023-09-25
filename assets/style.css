@@ -1,17 +1,9 @@
 /*Colors*/
 
-html{
-  background-color:#352B17 ;
-}
-
-.yellowText{
-color:#D2AC43 ;
-}
-
-.aboutUs{
-  margin-top: 100px;
-  gap: 10 px;
-  display: flex;
-  flex-direction:row;
-  justify-content:space-evenly;
+.menu-items {
+  font-family: 'VT323', monospace;
+  font-size:50px;
+  color: #000;
+  text-align: center;
+  font-weight:100;
 }
