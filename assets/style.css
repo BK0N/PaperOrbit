@@ -1,17 +1,25 @@
-/*Colors*/
 
-.menu-items {
+
+/*Backgrounds*/
+body{
+  background-color:#352B17
+}
+
+
+
+/* Fonts */
+.Page-Title {
   font-family: 'VT323', monospace;
-  font-size:50px;
-  color: #000;
-  text-align: top center;
+  font-size:20px;
+  color: #DDB649;
+  text-align: center;
   font-weight:100;
 }
 
-.About-Names{
+.About-Title{
   font-family: 'VT323', monospace;
   font-size:10px;
-  color: #000;
+  color: #DDB649;
   text-align: center;
   font-weight:100;
 }
