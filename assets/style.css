@@ -4,6 +4,14 @@
   font-family: 'VT323', monospace;
   font-size:50px;
   color: #000;
+  text-align: top center;
+  font-weight:100;
+}
+
+.About-Names{
+  font-family: 'VT323', monospace;
+  font-size:10px;
+  color: #000;
   text-align: center;
   font-weight:100;
 }
