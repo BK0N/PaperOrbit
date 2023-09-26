@@ -32,7 +32,7 @@ body{
   font-weight:100;
 }
 
-.list{
+.Full_list{
   font-family: 'VT323', monospace;
   font-size:50px;
   color: #DDB649;
@@ -43,5 +43,5 @@ body{
 
 .List_Items{
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 70px;
 }
