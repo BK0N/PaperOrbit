@@ -15,6 +15,20 @@ body{
   text-align: center;
 }
 
+a:any-link{
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #DDB649;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 
 /*About Page*/
 .About-Title{
@@ -22,6 +36,22 @@ body{
   font-size:20px;
   color: #DDB649;
   text-align: center;
+}
+
+.About_button{
+background-color: #352B17;
+padding: 20px 70px;
+text-align:center;
+text-decoration: none;
+font-family: 'VT323', monospace;
+font-size: 40px;
+border-color: #DDB649;
+}
+
+.About_button:hover{
+  background-color: #DDB649;
+  transition: 0.7;
+  text-color
 }
 
 
@@ -44,20 +74,6 @@ body{
 .List_Items{
   display: inline-block;
   margin-right: 70px;
-}
-
-a:any-link{
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #DDB649;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 /*Score Page*/
