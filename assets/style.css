@@ -2,7 +2,7 @@
 
 /*Background*/
 body{
-  background-color:#352B17
+  background-color:#241d0f
 }
 
 
@@ -24,11 +24,6 @@ a:visited {
   color: #DDB649;
 }
 
-a:hover {
-  text-decoration: none;
-  color: #ffffff;
-}
-
 
 /*About Page*/
 .About-Title{
@@ -40,18 +35,21 @@ a:hover {
 
 .About_button{
 background-color: #352B17;
-padding: 20px 70px;
 text-align:center;
 text-decoration: none;
 font-family: 'VT323', monospace;
 font-size: 40px;
-border-color: #DDB649;
+border-color: #BF9A3D;
+color: #DDB649;
+border-style:solid;
+padding: 20px 70px;
+border-radius: 1px;
+border-width: 3px;
 }
 
 .About_button:hover{
   background-color: #DDB649;
-  transition: 0.7;
-  text-color
+  color: #352B17;
 }
 
 
