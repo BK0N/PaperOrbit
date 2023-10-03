@@ -15,77 +15,157 @@ body{
   text-align: center;
 }
 
-a:any-link{
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #DDB649;
-}
-
-
-/*About Page*/
-.About-Title{
-  font-family: 'VT323', monospace;
-  font-size:20px;
-  color: #DDB649;
-  text-align: center;
-}
-
-.About_button{
-background-color: #352B17;
-text-align:center;
-text-decoration: none;
-font-family: 'VT323', monospace;
-font-size: 40px;
-border-color: #BF9A3D;
-color: #DDB649;
-border-style:solid;
-padding: 20px 70px;
-border-radius: 1px;
-border-width: 3px;
-}
-
-.About_button:hover{
-  background-color: #DDB649;
-  color: #352B17;
-}
-
 
 /*Index Page*/
-.Upload-container{
-  font-family: 'VT323', monospace;
-  font-size:11px;
-  color: #DDB649;
-  text-align: center;
-}
 
-.Full_list{
-  font-family: 'VT323', monospace;
-  font-size:50px;
-  color: #DDB649;
-  text-align: center;
-  list-style-type: none;
-}
+    /*This makes sures the menu bar is aligned. Not really sure if its still working*/
+    .Full_list{
+      text-align: center;
+      list-style-type: none;
+    }
 
-.List_Items{
-  display: inline-block;
-  margin-right: 70px;
-}
+    .List_Items{
+      display: inline-block;
+      margin-right: 70px;
+    }
+
+    /*Handles button logic*/
+    .Index_button{
+    background-color: #352B17;
+    font-family: 'VT323', monospace;
+    font-size: 40px;
+    border-color: #BF9A3D;
+    color: #DDB649;
+    border-style:solid;
+    padding: 20px 70px;
+    border-radius: 1px;
+    border-width: 3px;
+    }
+
+    .Index_button:hover{
+      background-color: #DDB649;
+      color: #352B17;
+    }
+
+     /*Space for creating the file upload container style*/
+     .Upload-container{
+      font-family: 'VT323', monospace;
+      font-size:11px;
+      color: #DDB649;
+      text-align: center;
+    }
 
 /*Score Page*/
-.Score-Title{
+
+  /*Aligns and centers page*/
+  .Full_list{
+    text-align: center;
+    list-style-type: none;
+  }
+  
+  .List_Items{
+    display: inline-block;
+    margin-right: 70px;
+  }
+  
+  /*Button style*/
+  .Score_button{
+  background-color: #352B17;
   font-family: 'VT323', monospace;
-  font: size 50px;
+  font-size: 40px;
+  border-color: #BF9A3D;
   color: #DDB649;
-  text-align: center;
-}
+  border-style:solid;
+  padding: 20px 70px;
+  border-radius: 1px;
+  border-width: 3px;
+  }
+
+  .Score_button:hover{
+    background-color: #DDB649;
+    color: #352B17;
+  }
+  /*Space for later*/
+  .Score-Title{
+    font-family: 'VT323', monospace;
+    font: size 50px;
+    color: #DDB649;
+    text-align: center;
+  }
+
 
 /*Graph Page*/
-.Graph-Title{
+
+  /*Aligns and centers page*/
+  .Full_list{
+    text-align: center;
+    list-style-type: none;
+  }
+  .List_Items{
+    display: inline-block;
+    margin-right: 70px;
+  }
+  
+  /*Button style*/
+  .Graph_button{
+  background-color: #352B17;
   font-family: 'VT323', monospace;
-  font: size 50px;
+  font-size: 40px;
+  border-color: #BF9A3D;
   color: #DDB649;
-  text-align: center;
-}
+  border-style:solid;
+  padding: 20px 70px;
+  border-radius: 1px;
+  border-width: 3px;
+  }
+  .Graph_button:hover
+  {
+    background-color: #DDB649;
+    color: #352B17;
+  }
+  
+  /*Space for later*/
+  .Graph-Title{
+    font-family: 'VT323', monospace;
+    font: size 50px;
+    color: #DDB649;
+    text-align: center;
+  }
+
+/*About Page*/
+
+  /*Aligns and centers page*/
+  .Full_list{
+    text-align: center;
+    list-style-type: none;
+  }
+  .List_Items{
+    display: inline-block;
+    margin-right: 70px;
+  }
+
+  /*Button style*/
+  .About_button{
+  background-color: #352B17;
+  font-family: 'VT323', monospace;
+  font-size: 40px;
+  border-color: #BF9A3D;
+  color: #DDB649;
+  border-style:solid;
+  padding: 20px 70px;
+  border-radius: 1px;
+  border-width: 3px;
+  }
+  .About_button:hover{
+    background-color: #DDB649;
+    color: #352B17;
+  }
+
+  /*Space for later*/
+  .About-Title{
+    font-family: 'VT323', monospace;
+    font-size:20px;
+    color: #DDB649;
+    text-align: center;
+  }
+
