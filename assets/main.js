@@ -1,19 +1,14 @@
 
-var aboutButton = document.getElementById("aboutbutton");
-var isActive = false;
+document.querySelector("#aboutbutton").onclick = function(){
+    
+    alert("Active color changing")
 
-aboutButton.onclick = function() {
-    isActive = !isActive;
+    const button = document.querySelector("#aboutbutton");
 
-    if(isActive){
-        aboutButton.style.backgroundColor = "#DDB649"
-        alert("Color should be active")
-        aboutButton.style.color = "red"
-    }
-    else{
-        aboutButton.style.backgroundColor = "#352B17"
-        alert("Color should be reverted")
-    }
+    console.log(button.style);
+
+    button.style.backgroundColor = "blue";
+
 }
 
 
