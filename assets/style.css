@@ -50,7 +50,7 @@ body{
      /*Space for creating the file upload container style*/
      .Upload-container{
       font-family: 'VT323', monospace;
-      font-size:11px;
+      font-size:20px;
       color: #DDB649;
       text-align: center;
     }
