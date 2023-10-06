@@ -42,3 +42,9 @@ body{
   background-color:#DDB649;
   color: #352B17;
 }
+
+.About-Names{
+  color:#DDB649;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+}
