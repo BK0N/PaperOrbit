@@ -57,7 +57,7 @@ body{
   margin: 160px;
 }
 
-.Yellow-Borders{
-  width: 300px;
-  height: 300px;
+.image{
+  background-image: url("User.svg");
+  width: fit-content;
 }
