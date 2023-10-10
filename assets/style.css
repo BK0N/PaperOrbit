@@ -57,7 +57,12 @@ body{
   margin: 160px;
 }
 
-.image{
-  background-image: url("User.svg");
-  width: fit-content;
+.Borders{
+  width: 480mm;
+  height: 230mm;
+  position:relative;
+  bottom: 29rem;
+  left: 2rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
