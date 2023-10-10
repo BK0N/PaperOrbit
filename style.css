@@ -57,12 +57,46 @@ body{
   margin: 160px;
 }
 
-.Borders{
-  width: 480mm;
-  height: 230mm;
-  position:relative;
-  bottom: 29rem;
-  left: 2rem;
-  background-size: 100%;
-  background-repeat: no-repeat;
+.Vertical-containers #Vertical-border01{
+  width: 5px;
+  height: 890px;
+  background-color: #DDB649;
+  position:fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+.Vertical-containers #Vertical-border02{
+  width: 5px;
+  height: 890px;
+  background-color: #DDB649;
+  position:fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.Horizontal-containers #Bottom-Border{
+  width: 1890px;
+  height: 5px;
+  background-color: #DDB649;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
+
+.Horizontal-containers #Top-Border01{
+  width: 350px;
+  height: 5px;
+  background-color: #DDB649;
+  position: fixed;
+  top: 3.5rem;
+  left: 1rem;
+}
+
+.Horizontal-containers #Top-Border02{
+  width: 350px;
+  height: 5px;
+  background-color: #DDB649;
+  position: fixed;
+  top: 3.5rem;
+  right: 1rem;
 }
