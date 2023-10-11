@@ -19,11 +19,15 @@ body{
   text-align: center;
   list-style-type: none;
   padding-left: 5rem;
+  opacity: 1;
+  animation: Loadingcontent none linear forwards;
 }
 
 .List_Items{
   display: inline-block;
   margin-right: 70px;
+  opacity: 1;
+  animation: Loadingcontent none linear forwards;
 }
 
 .button-common{
@@ -37,11 +41,15 @@ body{
   border-radius: 1px;
   border-width: 3px;
   cursor: pointer;
+  opacity: 1;
+  animation: Loadingcontent none linear forwards;
 }
 
 .button-common:hover{
   background-color:#DDB649;
   color: #352B17;
+  opacity: 1;
+  animation: Loadingcontent none linear forwards;
 }
 
 .About-Names {
@@ -51,12 +59,26 @@ body{
   list-style-type: none;
   text-align: center;
   padding-top: 300px;
+  opacity: 1;
+  animation: Loadingcontent none linear forwards;
 }
 
 .About-Names li {
   display: inline;
   margin: 160px;
+  opacity: 1;
+  animation: Loadingcontent none linear forwards;
 }
+
+@keyframes Loadingcontent{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
 
 .Vertical-containers #Vertical-border01{
   width: 5px;
@@ -66,7 +88,7 @@ body{
   bottom: 1rem;
   left: 1rem;
   transform:translate(0px, 0px);
-  animation: SizeAndMove 1s linear forwards;
+  animation: LoadingSizeAndMove none linear forwards;
 }
 
 .Vertical-containers #Vertical-border02{
@@ -77,10 +99,10 @@ body{
   bottom: 1rem;
   right: 1rem;
   transform:translate(0px, 0px);
-  animation: SizeAndMove 1s linear forwards;
+  animation: LoadingSizeAndMove none linear forwards;
 }
 
-@keyframes SizeAndMove {
+@keyframes LoadingSizeAndMove {
   0%{
     width: 5px;
     height: 890px;
@@ -100,7 +122,7 @@ body{
   top: 3.5rem;
   left: 1rem;
   transform:translate(0px, 0px);
-  animation: TopborderMove 1s linear forwards;
+  animation: LoadingTopborderMove none linear forwards;
 }
 
 .Horizontal-containers #Top-Border02{
@@ -111,10 +133,10 @@ body{
   top: 3.5rem;
   right: 1rem;
   transform:translate(0px, 0px);
-  animation: TopborderMove 1s linear forwards;
+  animation: LoadingTopborderMove none linear forwards;
 }
 
-@keyframes TopborderMove {
+@keyframes LoadingTopborderMove {
   0%{
     transform: translate(0px,0px);
   }
@@ -131,14 +153,18 @@ body{
   bottom: 1rem;
   right: 1rem;
   transform:translate(0px, 0px);
-  animation: BottomborderMove 1s linear forwards;
+  animation: LoadingBottomborderMove none linear forwards;
 }
 
-@keyframes BottomborderMove {
+@keyframes LoadingBottomborderMove {
   0%{
     transform: translate(0px,0px);
   }
   100%{
     transform: translate(0px,-310px);
   }
+}
+
+.LoadingAnimations{
+  animation: LoadingBottomborderMove 1s;
 }
