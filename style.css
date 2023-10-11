@@ -65,7 +65,10 @@ body{
   position:fixed;
   bottom: 1rem;
   left: 1rem;
+  transform:translate(0px, 0px);
+  animation: SizeAndMove 1s linear forwards;
 }
+
 .Vertical-containers #Vertical-border02{
   width: 5px;
   height: 890px;
@@ -73,15 +76,20 @@ body{
   position:fixed;
   bottom: 1rem;
   right: 1rem;
+  transform:translate(0px, 0px);
+  animation: SizeAndMove 1s linear forwards;
 }
 
-.Horizontal-containers #Bottom-Border{
-  width: 1887px;
-  height: 5px;
-  background-color: #DDB649;
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
+@keyframes SizeAndMove {
+  0%{
+    width: 5px;
+    height: 890px;
+
+  }
+  100%{
+    transform: scaleY(0.3);
+    transform-origin: center;
+  }
 }
 
 .Horizontal-containers #Top-Border01{
@@ -91,6 +99,8 @@ body{
   position: fixed;
   top: 3.5rem;
   left: 1rem;
+  transform:translate(0px, 0px);
+  animation: TopborderMove 1s linear forwards;
 }
 
 .Horizontal-containers #Top-Border02{
@@ -100,4 +110,35 @@ body{
   position: fixed;
   top: 3.5rem;
   right: 1rem;
+  transform:translate(0px, 0px);
+  animation: TopborderMove 1s linear forwards;
+}
+
+@keyframes TopborderMove {
+  0%{
+    transform: translate(0px,0px);
+  }
+  100%{
+    transform: translate(0px,310px);
+  }
+}
+
+.Horizontal-containers #Bottom-Border{
+  width: 1887px;
+  height: 5px;
+  background-color: #DDB649;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  transform:translate(0px, 0px);
+  animation: BottomborderMove 1s linear forwards;
+}
+
+@keyframes BottomborderMove {
+  0%{
+    transform: translate(0px,0px);
+  }
+  100%{
+    transform: translate(0px,-310px);
+  }
 }
